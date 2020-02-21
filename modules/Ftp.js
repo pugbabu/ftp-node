@@ -1,5 +1,5 @@
 const path = require('path')
-const jsftp = require('jsftp')
+const jsftp = require('jsftp');
 class Ftp {
   constructor() {
     this.currentFolder = '/'
